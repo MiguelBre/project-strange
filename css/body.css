@@ -1,0 +1,14 @@
+:root{
+    --accent-color: #E62721;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, #000, #000E 30%, #000A 40%, #0000), url(../ing/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+}
