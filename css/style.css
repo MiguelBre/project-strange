@@ -36,3 +36,12 @@ main{
 footer{
     height: 80px;
 }
+
+@media (max-width: 768px){
+    header{
+        height: 70px;
+    }
+    .links-container{
+        display: none;
+    }
+}

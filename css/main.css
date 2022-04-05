@@ -13,6 +13,11 @@ main{
     gap: 20px;
 }
 
+.doc{
+    font-size: 3rem;
+    font-weight: 200;
+}
+
 .content-container h1{
     display: flex;
     flex-direction: column;
@@ -22,10 +27,7 @@ main{
     font-weight: 375;
 }
 
-.content-container h1 span{
-    font-size: 2.5rem;
-    font-weight: 200;
-}
+
 
 .movie-title{
     color:#E62721;
@@ -79,4 +81,28 @@ main{
 .social-container a:hover{
     background-color: #E62721;
     border-color: #E62721;
+}
+
+
+@media (max-width:768px){   
+    .movie-text{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    .content-container h1{
+        font-size: 4rem;
+        line-height: 2.5rem;
+    }
+    .doc{
+        font-size: 1.5rem;
+    }
+    .movie-title{
+        font-size: 1.5rem;
+    }
+    .botao{
+        display: flex;
+        align-items: center;
+    }
 }
