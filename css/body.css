@@ -1,6 +1,12 @@
 :root{
     --accent-color: #E62721;
 }
+
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+
 body{
     height: 100vh;
     background: linear-gradient(90deg, #000, #000E 30%, #000A 40%, #0000), url(../ing/background.png);
@@ -11,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
+    animation: zoom .5s;
 }
 
 @media (max-width: 768px){
@@ -21,5 +28,13 @@ body{
         background-blend-mode: darken;
         background-position: 90%;
     }
-    header
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
