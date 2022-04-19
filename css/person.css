@@ -22,14 +22,62 @@ header{
 }
 
 .links-container a:hover{
-
     background-color: #E62721;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 49px;
+    gap: 49px;
+}
+
+.title-container{
+    font-size: 5rem;
+    font-weight: 250;
+}
+
+.desc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-bottom: 117px;
+}
+
+.personagens-container{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.pers-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pers-container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    width: 130px;
+    text-align: center;
+}
+
+.pers{
+    color: #fff7;
+    font-size: 0.8rem;
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     height: 80px;
 }
