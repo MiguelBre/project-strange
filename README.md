@@ -4,8 +4,7 @@ Projeto construído durante as aulas de LIMA no curso de Desenvolvimento de Sist
 
 ![](./ing/Dr.Strange2.png)
 
-<img src="./ing/MOBILE.png" width="250px">
-<img src="./ing/MOBILE2.png" width="250px">
+<img src="./ing/MOBILE.png" width="250px"><img src="./ing/MOBILE2.png" width="250px">
 
 ---
 
